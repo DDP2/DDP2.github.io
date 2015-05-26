@@ -1,0 +1,40 @@
+#margarin {
+	width: auto;
+	height: auto;
+	border: solid black 7px;
+	border-radius: 5px;
+	background-color: #7B6EBF;
+	margin-top: 12px;
+	padding: 6px;
+	margin-left: auto;
+}
+
+
+
+body {
+	background-color: #055176;
+}
+
+p {
+	color: white;
+	font-size: 16px;
+	text-align: center;	
+}
+
+
+#breakIn {
+
+	width: auto;
+	height: auto;
+	border: solid black 7px;
+	border-radius: 5px;
+	background-color: #7B6EBF;
+	margin-top: 12px;
+	padding: 6px;
+	margin-left: auto;
+	padding-top: 10px;
+}
+
+
+
+
