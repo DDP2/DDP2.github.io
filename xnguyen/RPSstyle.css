@@ -1,0 +1,61 @@
+body {
+	background-color: #B0AEAE;
+}
+
+#box1 {
+	border: solid black 8px;
+	border-radius: 10px;
+	background-color: gray;
+	color: white;
+	font-family: arial;
+	text-align: center;
+	padding: 10px;
+}
+
+#L_FLOAT {
+	float: left;
+}
+
+#R_FLOAT {
+	float: right;
+}
+ 
+#PlayerScore {
+ 	background-color: yellow;
+ 	border: solid black 3px;
+ 	color: black;
+}
+
+#CompScore {
+ 	background-color: yellow;
+ 	border: solid black 3px;
+ 	color: black;
+}
+
+#PictureClick {
+	border: solid black 5px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+}
+
+#PictureClickM {
+	border: solid red 5px;
+	width: 80px;
+	height: 80px;
+	cursor: pointer;
+	background-color: white;
+}
+
+.btn-group {
+	margin: 5px;
+}
+
+.img-responsive{
+	float: center;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: 50%;
+}

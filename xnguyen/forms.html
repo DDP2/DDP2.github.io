@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Practice</title>
+	 <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+	 <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-fixed-top" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="glyphicon glyphicon-home" href="index.html"><span class="sr-only"></span></a></li>
+          <li><a href="journal.html">Web Journal</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bootPro.html">Bootstrap Project</a></li>
+              <li><a href="RPS.html">Rock Paper Scissors Project</a></li>
+              <li role="presentation" class="divider"></li>
+              <li><a href="forms.html">Forms</a></li>
+            </ul>
+          </li>
+        </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+	<div id="BodyPara" class="img-responsive">
+		<h2>User Form</h2>
+		<div class="container">
+        	<div class="row">
+
+	        		<div class="col-md-6">
+	        			<form class="form-inline" name="example" action="action"> 	
+							<h3>What is your Username?</h3>
+							<input name="username" type="text">
+						
+					</div>
+
+					<div class="col-md-6">
+	        			
+							<h3>What is your Email Address?</h3>
+							<input name="username2" type="text">
+						
+					</div>
+
+			</div>
+			<div class="row">
+
+					<div class="col-md-6">
+	        			
+							<h3>What is your Date of Birth?</h3>
+							<input name="username3" type="text">
+						
+					</div>
+
+					<div class="col-md-6">
+	        			 	
+							<h3>What is your City Name?</h3>
+							<input name="username4" type="text">
+						
+					</div>
+
+			</div>	
+
+			<hr>
+
+			<input id="submitButton" name="submit" type="submit" value="Submit">
+
+			<hr>
+			<br>
+
+			</form>
+
+			<div id="result">
+				
+			</div>
+
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script2.js"></script>
+
+</body>
+</html>

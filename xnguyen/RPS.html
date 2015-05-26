@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+   	 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>RPSLSM</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="style.css">
+		<link type="text/css" rel="stylesheet" href="RPSstyle.css">
+	</head>
+	<body>
+		<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse navbar-fixed-top" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a class="glyphicon glyphicon-home" href="index.html"><span class="sr-only"></span></a></li>
+          <li><a href="journal.html">Web Journal</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">My Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bootPro.html">Bootstrap Project</a></li>
+              <li><a href="RPS.html">Rock Paper Scissors Project</a></li>
+              <li role="presentation" class="divider"></li>
+              <li><a href="forms.html">Forms</a></li>
+            </ul>
+          </li>
+        </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+
+  		<div id="BodyPara" class="img-responsive">
+			<div id="box1">
+				<h1>ROCK PAPER SCISSORS LIZARD SPOCK MARIO</h1>
+			</div>
+
+			<hr>
+
+			<div id="box1">
+				<h1>CHOOSE YOUR WEAPON!!!</h1>
+					<div class="btn-group" role="group" aria-label="...">
+					  <button type="button" class="btn btn-info" onClick="VIDEOSHOW()">Video</button>
+					  <button type="button" class="btn btn-danger" onClick="REFRESH()">Reset</button>
+					</div>
+					<div class="container">
+					<div class="row">
+						<div class="col-xs-4 col-md-2"><img id="PictureClick" class="img-responsive" onClick="P_ROCK()"  src="http://img2.wikia.nocookie.net/__cb20141120133208/epicrapbattlesofhistory/images/4/4b/A_Rock!.gif"></div>
+						<div class="col-xs-4 col-md-2"><img id="PictureClick" class="img-responsive" onClick="P_PAPER()" src="https://cdn.tutsplus.com/craft/uploads/2013/11/14-snowflakes-lay-paper-copy.jpg"></div>
+						<div class="col-xs-4 col-md-2"><img id="PictureClick" class="img-responsive" onClick="P_SCISSORS()" src="http://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Fiskars-scissors.jpg/1280px-Fiskars-scissors.jpg"></div>
+						<div class="col-xs-4 col-md-2"><img id="PictureClick" class="img-responsive" onClick="P_LIZARD()" src="http://globe-views.com/dcim/dreams/lizard/lizard-01.jpg"></div>
+						<div class="col-xs-4 col-md-2"><img id="PictureClick" class="img-responsive" onClick="P_SPOCK()" src="http://www.themarysue.com/wp-content/uploads/2015/04/Mr-Spock-mr-spock-10874060-1036-730.jpg"></div>
+						<div class="col-xs-4 col-md-2"><img id="PictureClickM" class="img-responsive" onClick="P_MARIO()" src="http://mario.nintendo.com/img/mario_logo.png"></div>
+					</div>
+				</div>
+				<hr>
+				<div id="L_FLOAT">
+					<p><b>PLAYER:</b></p>
+					<p id = "PlayerScore"></p>
+				</div>
+				<div id="R_FLOAT">
+					<p><b>COMPUTER:</b></p>
+					<p id = "CompScore"></p>
+				</div>
+			</div>
+
+
+			<div id="box1">
+				<p id="PlayerText"></p>
+				<p id="CompText"></p>
+				<p id="ResultPicture"></p>
+				<h1 id="ResultText"></h1>
+			</div>
+		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

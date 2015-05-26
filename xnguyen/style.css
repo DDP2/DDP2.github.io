@@ -1,0 +1,57 @@
+body {
+	background-image: url(image.jpeg);
+	padding-top: 50px;
+}
+
+#BodyPara {
+	background-color: white;
+	float: center;
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+#BodyPara h1 {
+	text-align: center;
+}
+
+#BodyPara h2 {
+	text-align: center;
+}
+
+#BodyPara h5 {
+	text-align: center;
+}
+
+#myImage {
+	border: solid black 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 20%;
+}
+
+#submitButton {
+	display: block;
+	margin: auto;
+}
+	
+.notetitle {
+	border: solid black 10px;
+	text-align: center;
+
+}
+
+.notepara {
+	border: solid black 5px;
+	font-family: arial;
+	padding: 5px;
+}
+
+
+
+
+
+
+
