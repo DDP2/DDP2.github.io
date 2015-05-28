@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<title>Mike's Center for Stuff</title>
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+	</head>
+		`<body>
+
+					<div class="container">
+
+					<nav class="navbar navbar-default">
+	  		<div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    		<div class="navbar-header">
+	      		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        		<span class="sr-only">Toggle navigation</span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	        		<span class="icon-bar"></span>
+	      		</button>
+	      		<a class="navbar-brand" href="index.html">Home</a>
+	    		</div>
+
+	    		<!-- Collect the nav links, forms, and other content for toggling -->
+	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      		<ul class="nav navbar-nav">
+	        		<li class="dropdown">
+	          		<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">More<span class="caret"></span></a>
+	          		<ul class="dropdown-menu" role="menu">
+	           		 	<li><a href="journal.html">Journal</a></li>
+	            		<li><a href="rps.html">A Game To Entertain!</a></li>
+	            
+	          		</ul>
+	        		</li>
+	      		</ul>
+	      
+	    		</div><!-- /.navbar-collapse -->
+	  		</div><!-- /.container-fluid -->
+			</nav>
+
+		<div class="container">
+			<div class="row">
+
+				<div id="openPart" class="col-xs-12 col-sm-12 col-md-12">	
+					<h1>Rock Paper Scissors</h1>
+						<p>The game is simple, choose rock, paper, or scissors and the computer will do the same. If you chose right you will win! If not then prepare for your demise.</p>
+				</div>	
+
+				<div class="col-xs-3 col-sm-4 col-md-4">
+					<button id="rock" onClick="playerRock()"><img src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-rock-icon.png" class="img-responsive" alt="Responsive image"></img></button>
+				</div>
+
+				<div class="col-xs-3 col-sm-4 col-md-4">	
+					<button id="paper" onClick="playerPaper()"><img src="http://megaicons.net/static/img/icons_sizes/8/178/512/rock-paper-scissors-paper-icon.png" class="img-responsive" alt="Responsive image"></button>
+				</div>	
+			
+				<div class="col-xs-3 col-sm-4 col-md-4">
+					<button id="scissors" onClick="playerScissors()"><img src="http://megaicons.net/static/img/icons_sizes/8/178/256/rock-paper-scissors-scissors-icon.png" class="img-responsive" alt="Responsive image"></button>
+				</div>	
+			</div>
+
+			<div class="row top-buffer">
+				<div class="col-xs-3" id="playerChoice">Your choice
+				</div>
+
+				<div class="col-xs-1" id="theResult"></div>
+
+				<div class="col-xs-3" id="computerChoice">Computer's choice
+				</div>
+
+			</div>
+		</div>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+		</body>
+</html>
