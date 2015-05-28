@@ -5,10 +5,8 @@ var form = document.forms.practiceForm;
 
 form.addEventListener("submit", displayPerson, false);
 
-console.log("Working");
 
 function displayPerson(event) {
-	console.log("function was clicked");
 
 	event.preventDefault();
 
