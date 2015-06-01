@@ -1,0 +1,28 @@
+body{
+	background-color: #7F7F7F;
+}
+
+a{
+	color: #E81100;
+	text-decoration: none;
+}
+
+p{
+	color: red;
+}
+
+h2{
+	color: #494949;
+}
+
+.p{
+	padding-left: 20px; 
+	margin-top: 20px;
+	border-radius: 10px;
+	border: solid;
+	background-color: #900000;
+}
+
+img{
+	border: solid #494949 2px;
+}
