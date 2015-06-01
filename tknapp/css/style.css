@@ -17,6 +17,7 @@
 	text-decoration: none;
 	text-align: center;
 	float: left;
+	background-color: yellow;
 }
 #menu {
 	width: 90%;
@@ -47,6 +48,7 @@ p{
 	border: solid black 5px;
 	border-radius: 10px;
 	padding: 10px;
+	background-color: orange;
 }
 h5{
 	font-style: bold;
