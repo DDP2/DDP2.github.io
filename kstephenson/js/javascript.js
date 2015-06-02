@@ -7,7 +7,7 @@ function playerEarth() {
 
 	userChoice = 1;
 
-	document.getElementById("player").src = "pictures/earth.png"; 
+	document.getElementById("player").src = "pictures/earth.PNG"; 
 
 	randomNumber();
 }
@@ -17,7 +17,7 @@ function playerWater() {
 
 	userChoice = 2;
 
-	document.getElementById("player").src = "pictures/water.png"; 
+	document.getElementById("player").src = "pictures/water.PNG"; 
 
 	randomNumber();
 }
@@ -26,7 +26,7 @@ function playerAir() {
 
 	userChoice = 3;
 
-	document.getElementById("player").src = "pictures/air.png"; 
+	document.getElementById("player").src = "pictures/air.PNG"; 
 
 	randomNumber();
 }
@@ -35,7 +35,7 @@ function playerFire() {
 
 	userChoice = 4;
 
-	document.getElementById("player").src = "pictures/fire.png"; 
+	document.getElementById("player").src = "pictures/fire.PNG"; 
 
 	randomNumber();
 }
@@ -51,25 +51,25 @@ function computerChoice() {
 	if (randomNum <= 12) {
 		
 		compChoice = 1;
-		document.getElementById("pc").src = "pictures/earth.png"; 
+		document.getElementById("pc").src = "pictures/earth.PNG"; 
 		console.log("Comp chooses Earth");
 
 	} else if (randomNum <= 30) {
 
 		compChoice = 2;
-		document.getElementById("pc").src = "pictures/water.png"; 
+		document.getElementById("pc").src = "pictures/water.PNG"; 
 		console.log("Comp chooses Water");
 
 	} else if (randomNum <= 76) {
 
 		compChoice = 3;
-		document.getElementById("pc").src = "pictures/air.png"; 
+		document.getElementById("pc").src = "pictures/air.PNG"; 
 		console.log("Comp chooses Air");
 
 	} else if (randomNum <= 150) {
 
 		compChoice = 4;
-		document.getElementById("pc").src = "pictures/fire.png"; 
+		document.getElementById("pc").src = "pictures/fire.PNG"; 
 		console.log("Comp chooses Fire");	
 	}	
 
