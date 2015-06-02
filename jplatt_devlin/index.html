@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Jacob Final Project</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+    <div class="page-header">
+      <h1>Jacob Platt's Website</h1>
+    </div>
+        <nav class="navbar navbar-inverse">
+          <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            <a class="navbar-brand" href="#">Jacob</a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+              <li><a href="game.html">Game</a></li>
+              <li><a href="journal.html">Web Journal</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="game.html">Game</a></li>
+                    <li><a href="journal.html">Web Journal</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1 class="text-center">About</h1>
+       </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <p class="text-justify">I designed this site to show off my amazing skills in html, CSS, and JavaScript. In the beginning I made a basic site using html about hip/hop. The site had no color just h1 and paragraph tags. Than after learning how to use CSS and connect that to my html site I could add backround colors and make the titles look more appealing to the eye. Learning how to use divs I could isolate certain elements in html, for example, if i wanted to make a picture smaller than the rest I could give it an ID, and call upon that ID in CSS to manipulate it. When JavaScript came along it opened more doors to the extent of manipulation of the content. I could make a button, and if you clicked on that button I could make an alert, among other things, to pop up to tell you a message. You should check out my drop down menue, and you should click on the form to fill out the information</p>
+        </div>
+      </div>
+  
+      <div class="row">
+        <div class="col-md-6">
+          <div class="gallery-item">
+            <a>
+              <img class="img-gallery" src="http://www.w3devcampus.com/wp-content/uploads/logoAndOther/logo_JavaScript.png" alt="pic1">
+            </a>
+          </div>    
+        </div>
+        <div class="col-md-6">
+          <div class="gallery-item">
+            <a>
+              <img class="img-gallery" src="http://www.html-helper.net/wp-content/uploads/2013/07/HTML.jpg" alt="pic2">
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="row">    
+        <div class="col-md-6">
+          <div class="gallery-item">
+            <a>
+              <img class="img-gallery" src="http://www.ecampusnews.com/files/2013/07/coding888.jpg" alt="pic3">
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="gallery-item">
+            <a>
+              <img class="img-gallery" src="http://www.designtickle.com/cdnmedia/-/2012/12/dropdown-navigation-web-ui/14-dark-dropdown-website-ui.png" alt="pic4">
+            </a>
+          </div>  
+        </div>
+      </div>
+
+      <form name="practiceForm" action="action">
+          <label for="text">Who is your favorite musical artist?</label>
+
+          <input type="text" name="username">
+          
+    
+          <label for="text">Tell me something amazing about youself!</label>
+      
+          <input type="text" name="amazing">
+          <input type="submit" name="submit" value="Submit">
+      </form>
+        
+      <h2 id="displayText"></h2>
+
+    </div>
+    <br><br><br><br><br><br><br><br>
+  
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+  </body>
+</html>
