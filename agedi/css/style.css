@@ -27,6 +27,9 @@ body {
 	text-align: center;
 }
 
+.gamerow	{
+	text-align: center;
+}
 #journalWrapper	{
 	border: solid #1F631F 5px;
 	background-color: #7CB17C;
