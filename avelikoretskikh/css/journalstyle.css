@@ -1,0 +1,111 @@
+body{
+	background-color: #4F555F;
+	font: bold;
+}
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+#menu a{
+	 border: solid black 2px;
+	 color:#BEB4A2;
+	 background-color: #4B0018;
+	 display:block;
+	 text-decoration: none;
+	 text-align: center;
+	 float:left;
+	 width:24%;
+}
+#menu {
+	padding: 10px;
+	width: 90%;
+	height: 22px;
+	margin: auto;
+}
+
+#topBanner{
+	display:center;	
+	color: #4B0018;
+	text-align: center;
+	border: solid black 5px;
+	background-color: #BEB4A2;
+}
+
+#images img{
+	margin: 10px;
+    border: solid;
+    height: auto;
+    width: 75%;
+    margin-left: 25px;
+    float: left;
+}
+.info{
+	text-decoration: bold;
+}
+
+.smallImage {
+	border-radius: solid black;
+	width: 30%;
+	height: auto;
+	float: left;
+}
+
+#images{
+	border: solid black 5px;
+	width: 1460px;
+	height: 350px;
+	background-color: #BEB4A2;
+    
+}
+
+
+p {
+	font-style: none;
+	color: black;
+	font-size: 1em;
+}
+
+#credits{
+	font-size: 12px;
+	color: white;
+}
+ 
+ #resources{
+ 	text-decoration: none;
+	list-style: none;
+ }
+
+h5{
+	font-size: 1em;
+	font-style: bold;
+	text-decoration: underline;
+}
+
+
+.journalWrapper {
+	width: 98%;
+	height: auto;
+	border: solid black 5px;
+	border-radius: 10px;
+	background-color: #BEB4A2;
+	padding: 10px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

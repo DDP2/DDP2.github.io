@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Rock Paper Scissors</title>
+	<link href="../css/bootstrap.min.css" rel="stylesheet">
+	<link rel ="stylesheet" type="text/css" href="../css/gamestyle.css">
+</head>
+
+<body> 
+	<br>
+	<div id = "topBanner">
+		<h1>Anya Alexandrovna Velikoretskikh</h1>
+	</div>
+
+	<div id = "menu">
+		<ul>
+			<li><a href = "../index.html">Home</a></li>
+			<li><a href = "index.html">Game</a></li>
+			<li><a href = "../journal.html">WebJournal</a></li>
+		</ul>
+	</div>
+	<hr>
+	<h5>Rock Paper Scissors</h5>
+	<p>To play this game you need to select one of the icons whether it's Rock, Paper or Scissors. Computer will randomply pick the second icon and results will show up in between the two outcomes :) </p>
+	<hr>
+
+
+	<div class="container">
+
+		<div class="row gameWrapper">
+      		<div class="col-xs-2 col-sm-3 col-md-3">
+				<button id="rock" onClick="	playerRock()">
+					<img class="img-responsive" src = "../img/rock.png" alt="rock">
+				</button>
+			</div>
+			
+			<div class="col-xs-2 col-sm-3 col-md-3">
+				<button id="paper" onClick="playerPaper()">
+					<img class="img-responsive" src = "../img/paper.png" alt="paper">
+				</button>
+			</div>
+
+			<div class="col-xs-2 col-sm-3 col-md-3">
+				<button id="scissors" onClick="playerScissors()">
+					<img class="img-responsive" src = "../img/scissors.png" alt="scissors">
+				</button>
+			</div>
+	  	</div>
+	  	
+	  	<div class="row">
+	  		<div class="col-xs-4 col-sm-4 col-md-5 outcomePictures" id="playerChoice">
+	  		</div>
+
+	  		<div class="col-xs-4 col-sm-4 col-md-2">
+	  			<h3 id="theResult"></h3>
+	  		</div>
+
+	  		<div class="col-xs-4 col-sm-4 col-md-5 outcomePictures" id="computerChoice">
+
+	  		</div>
+
+	  	</div>
+
+	</div>
+
+	<script src="../js/scripts.js"></script>
+	<div id="credits"?
+			<p>Created by: Anna Velikoretskikh</p>
+	</div>
+
+</body>
+</html>
