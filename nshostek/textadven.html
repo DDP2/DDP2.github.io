@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Text Adventure</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <SCRIPT LANGUAGE="JavaScript">
+      function names (form) {
+          var TestVar = form.firstname.value;
+          alert ("You say your first name is " + TestVar);
+          var last = form.lastname.value;
+          alert ("You say your last name is " + last);
+          alert ("You're lying");
+          document.getElementById("name1").innerHTML = TestVar
+          document.getElementById("name2").innerHTML = last
+      }
+      function therapy (form) {
+        var problems = form.problems.value;
+        alert ("Just because you think these things doesn't mean your crazy. It is only a computational error. Now ignore your thoughts and bottle up your feelings like a good american.");
+        alert ("You're not bottling")
+        alert ("I can see you don't want therapy.")
+        document.getElementById("problems").innerHTML = problems
+
+      }
+    </script>
+  </head>
+  <body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="RPS.html">RPS <span class="sr-only">(current)</span></a></li>
+        <li><a href="webj.html">Webjournal</a></li>
+        <li><a href="textadven.html">Text Adventure</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">LISP Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://en.wikipedia.org/wiki/Lisp_%28programming_language%29" target="_blank">LISP Wiki</a></li>
+            <li><a href="http://www.gnu.org/software/emacs/manual/html_node/eintr/index.html" target="_blank">Intro to Emacs LISP</a></li>
+            <li><a href="http://www-formal.stanford.edu/jmc/recursive.pdf" target="_blank">Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I</a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.cliki.net/" target="_blank">CLiki</a></li>
+            <li class="divider"></li>
+            <li><a href="http://cl-cookbook.sourceforge.net/" target="_blank">The Common Lisp Cookbook</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          First name:
+          <input type="text" name="firstname" value="Mickey">
+          Last name:
+          <input type="text" name="lastname" value="Mouse">
+          <input type="button" value="Submit" onclick="names(this.form)">
+        </div>
+      </form>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          Please print your problems here for therapizing:
+          <input type="text" name="problems" size="61" value="DON'T CALL ME CRAZY JUST CAUSE I HAVE A HOTEL IN MY FOOT!">
+          <input type="button" value="Therapize" onclick="therapy(this.form)">
+        </div>
+      </form>
+
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <a href="source.zip" download> Source Code Download</a>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <h1> What is this? </h1>
+      <p> This is a text adventure written in LISP. "What is LISP? What is a text adventure?" You may ask. A text adventure is one of the original video games. They are a game with no images, where you interact with the game world by typing various commands, like 'get shovel'. On the other side of this text coin, we have LISP. LISP is a programming language, or actually, a class of languages. The source code for these languages is distinct from others because it is in fully parenthetical polish prefix notation. For more information on the inner workings of lisp, see the dropdown menu titled "LISP Resources", or for a brief introduction look to the text box to the right. 
+    </div>
+    <div class="col-md-8">
+      <h1> Explaining LISP </h1>
+      <p> Please note, I am in no way a lisp guru. Anything I say should be taken with a grain of salt. <br><br>
+
+What is lisp? The name lisp stands for LISt Programming. Everything in lisp is a list. Every variable, is a list. Every function you create, is a list. Everything except for the built in functions is a list. Lisp can be a bit hard to look at, as the syntax is all parenthetical, and it uses polish prefix notation. that is to say, everything is in parenthesis, and every operation is written with the operator first, and the operate-es second. lets take a look at some code that illustrates this. <br><br>
+
+(+ 1 2)<br><br>
+
+This will give us the output of 3. We can also nest these operations:<br><br>
+
+(+ 1 2 (* 3 (/ 8 2)))<br><br>
+
+This will give us 15. If we dissect this, we can see that were adding 1, 2, and the result of 3 times the result of 8 divided by 2. When looking at these nested problems, it is easiest to work from the inside out. so we solve 8 divided by 2 to get 4. Then we multiply 3 times 4 to get 12, and finally we add 12 with 1 and 2 to get 15. <br><br>
+
+While that may be confusing, its mush easier to write (+ 1 2 4 7 23) than (1+2+4+7+23). Now thats great and all, but where are the lists? lets take a look at some code from a text adventure I’m working on. <br><br>
+
+(defparameter *objects* '(shovel key portal))<br><br>
+
+If we dissect this, we can see that the operator were using is defparameter, which defines a parameter. This is how we make variables. Were making the variable *objects*. the *’s around the variable name tells lisp that this is a global variable, not a local variable. the final part of this code tells us what the value of the variable objects is. In this case, the value is several strings called shovel, key, and portal. You may notice that this is a list. Since this list is made up of strings, we must tell lisp to look at this as data, not code. we can do this with the ‘ symbol in front of the list. This tells lisp that this isn’t a numerical value, but is data. This brings up a very important part of lisp: it can switch between data and code very easily. Keep this in mind as we look through more source code, and I’ll go into it more in depth later. <br><br>
+
+Now lets take a look at some more source from my text adventure. More specifically, the map of the locations there are in the game.<br><br>
+
+(setf *map*<br> 
+&nbsp;&nbsp;  '((cell-room (you are in a cell.) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;    (north door hallway))<br>
+&nbsp;&nbsp;  (hallway (you are in a dingy underground hallway.)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    (south door cell-room))))<br><br><br>
+
+It might be useful to open this in sublime, as sublime will look at the parenthesis and tell you which ones match each other. If we take a close look at this, we see that were using the operator setf, which is another way to define a variable. We can see that were defining the variable map, and that its made global by the *. Then we see that were looking at data, not code, because we are using a ‘. Now, set your cursor (in sublime) so that the first parenthesis following the ‘ is underlined. Sublime will underline the corresponding parenthesis, which in this case is the second to last parenthesis. This means that the entire variable map is data, and none of it is code. We can determine this because the parenthetical set that immediately follows the ‘ surrounds everything that makes up the map variable. Now set your cursor so that the next parenthesis (the one right before cell-door) is underlined. We can see that this parenthetical set spans from cell-room to hallway). Now we have a list within a list, and if you look closely, we can see that theres a couple lists within that list! This nesting of lists means that the variable map is made up of a bunch of lists that are in turn made up of other lists. We can see within the parenthetical set of <br><br>
+
+(cell-room (you are in a cell.) <br>
+&nbsp;&nbsp;&nbsp;&nbsp;    (north door hallway))<br><br>
+
+we have the parenthetical set of <br><br>
+
+(you are in a cell.)<br><br>
+
+and <br><br>
+
+(north door hallway)<br><br>
+
+which means that cell-room has 2 lists associated with it. We can also call any of these parenthetical sets individually. <br><br>
+
+The second major parenthetical set of<br><br> 
+
+(hallway (you are in a dingy underground hallway.)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;    (south door cell-room))))<br><br>
+
+has a similar structure. We can see the string <br><br>
+
+hallway <br><br>
+
+followed by the list <br><br>
+
+(you are in a dingy underground hallway.) <br><br>
+
+which is followed by <br><br>
+
+(south door cell-room))))<br><br>
+
+Now this is probably a little confusing, but the use of these nested parenthesis and the different strings will become apparent when we look at creating functions to access this data. Now were going to define another global variable. This one will be called location. The code for this is:<br><br>
+
+(defparameter *location* ‘cell-room)<br><br>
+
+The location variable is made up of a list of one, and its the data set of cell-room. This is the same as in the map, remember? Lets look at the source code for describing the you’re location. <br><br>
+
+(defun describe-location (location map)<br>
+&nbsp;&nbsp;  (second (assoc location map)))<br><br>
+
+Here we can see were using the defun operator, which is used to define a function, and that were defining the function describe-location. This function has two arguments, the variable location and the variable map. Second calls the second part of the major parenthetical set in the map variable, which is the description. Then, assoc associates the variable location with the variable map. This is why we used all of the nested parenthesis in the map. <br><br>
+
+Now we’re going to describe the paths away from the current location:<br><br>
+
+(defun describe-path (path)<br>
+&nbsp;&nbsp;  `(there is a ,(second path) going ,(first path) from here.))<br><br>
+
+Here you can see were defining the function describe-path, and it takes the argument (path). Next it uses a ` to tell lisp that the following list is data. Now we need to have a brief sidebar about commas. Lisp uses a comma to switch between code and data. So if you want to print a string, but you want to embed a variable in it, you would use a comma. So within describe-path, we have a cookie cutter description of the path, and the second value of the map lists path subset, followed by the first. <br><br>
+
+This should be enough to get you started with data structures and Lisp syntax. <br><br></p>
+    </div>
+  </div>
+   <div class="row">
+    <div class="col-md-4">
+      <h1> Your First Name: </h1>
+      <div id="name1">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1> Your Last Name: </h1>
+      <div id="name2">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1> Your Problem: </h1>
+      <div id="problems">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

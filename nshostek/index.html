@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Home</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <SCRIPT LANGUAGE="JavaScript">
+      function names (form) {
+          var TestVar = form.firstname.value;
+          alert ("You say your first name is " + TestVar);
+          var last = form.lastname.value;
+          alert ("You say your last name is " + last);
+          alert ("You're lying");
+          document.getElementById("name1").innerHTML = TestVar
+          document.getElementById("name2").innerHTML = last
+      }
+      function therapy (form) {
+        var problems = form.problems.value;
+        alert ("Just because you think these things doesn't mean your crazy. It is only a computational error. Please open your face hole for therapy reception.");
+        alert ("Open your other face hole.");
+        alert ("Wider.")
+        alert ("I can see you don't want therapy.")
+        document.getElementById("problems").innerHTML = problems
+
+      }
+    </script>
+
+  </head>
+  <body>
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="RPS.html">RPS <span class="sr-only">(current)</span></a></li>
+        <li><a href="webj.html">Webjournal</a></li>
+        <li><a href="textadven.html">Text Adventure</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">LISP Resources <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="http://en.wikipedia.org/wiki/Lisp_%28programming_language%29" target="_blank">LISP Wiki</a></li>
+            <li><a href="http://www.gnu.org/software/emacs/manual/html_node/eintr/index.html" target="_blank">Intro to Emacs LISP</a></li>
+            <li><a href="http://www-formal.stanford.edu/jmc/recursive.pdf" target="_blank">Recursive Functions of Symbolic Expressions and Their Computation by Machine, Part I</a></li>
+            <li class="divider"></li>
+            <li><a href="http://www.cliki.net/" target="_blank">CLiki</a></li>
+            <li class="divider"></li>
+            <li><a href="http://cl-cookbook.sourceforge.net/" target="_blank">The Common Lisp Cookbook</a></li>
+          </ul>
+        </li>
+      </ul>
+
+
+
+      <form class="navbar-form navbar-left">
+        <div class="form-group">
+          First name:
+          <input type="text" name="firstname" value="Mickey">
+          Last name:
+          <input type="text" name="lastname" value="Mouse">
+          <input type="button" value="Submit" onclick="names(this.form)">
+        </div>
+      </form>
+      <form class="navbar-form navbar-right">
+        <div class="form-group">
+          Please print your problems here for therapizing:
+          <input type="text" name="problems" size="61" value="DON'T CALL ME CRAZY JUST CAUSE I HAVE A HOTEL IN MY FOOT!">
+          <input type="button" value="Therapize" onclick="therapy(this.form)">
+        </div>
+      </form>
+
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      <h1> Biography </h1>
+      <p> I designed this site in the way I did because it seemed like the simplest way to do it - the simplest, easiest method is most often the best option. The way the site is set up seems like the best way to meet all the requirements in a concise and quick manner. As far as the evolution of my learning goes, there isn't much to say. I didn't learn to think in a new way, as I did when exploring other programming languages. It was mostly memorization and generation of faux content. I don't care about a site having a color palette, I care about learning a new way of thinking about a problem. As far as features go, there isn't really anything to be proud of regarding the HTML and JS. The place on this site where my pride lies would have to be the text adventure I've included from last semester. I sank all but 2 weeks of the semester into that project, and while it is still incomplete, it is the focal point of my pride. 
+    </div>
+    <div class="col-md-3">
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <img src="winds-of-creation.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <img src="Flatwound_01.jpg" class="img-responsive">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-xs-12">
+          <img src="lisp.png" class="img-responsive">
+        </div>
+      </diva>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-4">
+      <h1> Your First Name: </h1>
+      <div id="name1">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1> Your Last Name: </h1>
+      <div id="name2">
+      </div>
+    </div>
+    <div class="col-md-4">
+      <h1> Your Problem: </h1>
+      <div id="problems">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
