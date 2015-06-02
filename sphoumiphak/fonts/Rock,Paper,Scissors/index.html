@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Rock Paper Scissors</title>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Grid Practice</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+		</head>
+
+		<body>
+			<div class = "navbar navbar-inverse navbar-static-top">
+				<div class = "container">
+
+					<a href = "#" class = "navbar-brand">It's The Final</a>
+
+					<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+						<span class = "icon-bar"></span>
+					</button>
+
+
+					<div class = "collapse navbar-collapse navHeaderCollapse">
+
+						<ul class = "nav navbar-nav navbar-right">
+
+							<li><a href = "../index.html">Home</a></li>
+							<li class = "dropdown">
+								<a href = "#" class = "dropdown-toggle" data-toggle = "dropdown">Game <b class = "caret"></b></a>
+								<ul class = "dropdown-menu">
+									<li><a href="Rock,Paper,Scissors/index.html">Rock,Paper,Scissors</a></li>
+								</ul>
+							</li>
+							<li><a href = "../journal/index.html">Web Journal</a></li>
+
+						</ul>
+
+					</div>
+
+				</div>
+
+			</div>
+
+
+
+	<div class="container">
+			<h1 class="text-center">Rock Paper Scissors</h1>
+
+		<div class="row">
+			
+			<div class="col-sd-4 col-md-4 col-xs-4">
+				<h2>Wins</h2>
+				<div id="win"></div>
+			</div>
+
+			<div class="col-sd-4 col-md-4 col-xs-4">
+				<h2>Ties</h2>
+				<div id="tie"></div>
+			</div>
+
+			<div class="col-sd-4 col-md-4 col-xs-4">
+				<h2>Loses</h2>
+				<div id="loss"></div>
+			</div>
+
+			<div class="row">
+			
+				<div class="col-sd-6 col-md-6 col-xs-6">
+					<img class="pics img-responsive" id="player" src="Pics/p._137_Pick_One.png">
+				</div>
+				<div class="col-sd-6 col-md-6 col-xs-6">
+					<img class="pics img-responsive" id="pc" src="Pics/p._137_Pick_One.png">
+				</div>
+				
+			</div>
+
+		</div>
+
+			<div class="row">
+
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<button id="paper" onClick="playerPaper(); evaluateCvP()">
+						<img class="pics img-responsive" src="Pics/VerP.png">
+					</button>
+				</div>
+				
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<button id="rock" onClick="playerRock(); evaluateCvP()">
+						<img class="pics img-responsive" src="pics/VerR.png">
+					</button>
+				</div>
+				
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<button id="sciossors" onClick="playerScissors(); evaluateCvP()">
+						<img class="pics img-responsive" src="Pics/VerS.png">
+					</button>
+				</div>
+			</div>
+				
+		</div>
+			<script src="js/script.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+			
+
+		</body>
+	</html>

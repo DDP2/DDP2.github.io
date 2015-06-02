@@ -1,0 +1,24 @@
+body{
+	background-color: gray;
+}
+
+a{
+	text-decoration: none;
+	color: #553B00;
+}
+
+p{
+	color: #2D3034;
+}
+
+.p{
+	padding-left: 20px;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: solid;
+	background-color: #677581;
+}
+
+.img-responsive{
+	padding-bottom: 10px;
+}
