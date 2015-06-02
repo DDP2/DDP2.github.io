@@ -4,16 +4,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <title>Final Project Bootstrap</title>
     
  <link href="css/bootstrap.min.css" rel="stylesheet">
- <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
 
-<body>
 <nav class="navbar navbar-default">
   <div class="container-fluid">
-
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
@@ -24,11 +22,12 @@
       <a class="navbar-brand" href="index.html"></a>
     </div>
 
+  
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li><a href="Games.html">Games</a></li>
         <li><a href="index.html">Home</a></li>
-        <li><a href="Webjournal.html">Web Journal</a></li>  
+        <li><a href="Webjournal.html">Web Journal</a></li>
       </ul>
       <form class="navbar-form navbar-left" role="search">
         <div class="form-group">
@@ -49,46 +48,75 @@
           </ul>
         </li>
       </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+    </div>
+  </div>
 </nav>
- 
-<div class="container">
-<div class="row">
-  <div class="col-xs-12">
-    <h1>About Me</h1>
-  </div>
-</div>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
 
+  </head>
+  <body>
 
-
-
-<div class="media row">
-  <div class="media-body">
-    <h4 class="media-heading">A Short Biography</h4>
-    <p>My name is Lucas Padura, I'm a senior at franklin high school and I'm graduating 4 days after I finished this project. My hobbies include Video games, Martial arts, Dragon boating, and MTG. The college i plan to go to is Southern Oregon University and the major i plan to study in is communication and design, as well as cinematography and media study. This class has taught me alot about how computers work and has opened a door to computer science for me when I enter college. Although i'm most likely not going to enter computer science, this class will still help me by giving me a new way to think about how technology "thinks". Here are some photos of me, just in case you are some weirdo looking at this who dosent already know who I am...</p>
-<div class="row">
-  <div class="col-xs-6">
-    <img class="img-responsive" src="Lucas1.jpg">
-  </div>
-  <div class="col-xs-6">
-    <img  class="img-responsive" src="Lucas2.jpg">
-  </div>
-</div>
-<div class="row">
-  <div class="col-xs-6">
-    <img  class="img-responsive" src="Lucas3.jpg">
-  </div>
-  <div class="col-xs-6">
-    <img class="img-responsive" src="Lucas4.jpg">
-  </div>
-</div>
-  </div>
-</div>
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+
+    <script src="../js/bootstrap.min.js"></script>
+    
+	
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Games</h1>
+      </div>
+    </div>
+
+
+   
+</div>
+
+<br>
+
+    <div class="container">
+      <center><h4 id="score">Times Won: 0</h4></center>
+        <div class="row gamerow">
+          <div class="col-md-4">
+          <h1>Player</h1>
+          <div id="player">
+            <h3>Rock</h3>
+            <img src="Rock.jpg">
+          </div>
+          </div>
+           <div class="col-md-4">
+          <br><br>
+          <h1 id="winner"></h1>
+          </div>
+          <div class="col-md-4">
+          <h1>Computer</h1>
+          <div id="computer">
+            <h3>Rock</h3>
+            <img src="Rock.jpg">
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="gamerow">
+      <h3>Select your play</h3>
+        <div class="col-md-4">
+          <h3>Rock</h3>
+          <img onclick="playerRock()" class="image-high" src="Rock.jpg">
+        </div>
+
+        <div class="col-md-4">
+          <h3>Paper</h3>
+          <img onclick="playerPaper()" class="image-high" src="Paper.jpg"></div>
+        <div class="col-md-4"><h3>Scissors</h3><img onclick="playerScissors()" class="image-high"src="Scissors.jpg"></div>
+      </div>
+      <br><br><br>
+    </div>
+
+    <script type="text/javascript" src="rps.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+
 </body>
 </html>

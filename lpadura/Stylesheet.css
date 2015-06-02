@@ -1,0 +1,112 @@
+@@ -0,0 +1,77 @@
+h1 {
+	display: block;
+	margin-left: 200px;
+	float: center;
+	color: #550000;
+	font-size: 100px;
+}
+
+body	{
+	background-color: pink;
+}
+
+
+#navBar {
+	list-style: none;
+	margin-left: 600px;
+	margin-bottom: 100px;
+	padding: 0;
+}
+
+#navBar li {
+	display: inline;
+	font-size: 30px;
+}
+
+
+#navBar a {
+	display: block inline;
+	border: solid black 5px;
+	background-color: #550000;
+	color: #D46A6A;
+	width: 150px;
+}
+
+body {
+	background-color: #FFAAAA;
+}
+
+h2 {
+	display: block;
+	margin-left: 400px;
+	float: center;
+	color: #550000;
+	font-size: 75px;
+}
+
+p {
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	border: solid black 5px;
+	padding: 10px;
+	background-color: #801515;
+	color: #D46A6A;
+	font-size: 25px;
+}
+
+#homePic {
+	display: block;
+	margin-left: 455px;
+	margin-top: 70px;
+	border: solid black 10px;
+	width: 548px;
+	height: 412px;
+}
+
+#galleryImg {
+	border: solid black 5px;
+	background-color: #550000;
+}
+
+#coffeePic {
+	display: block inline;
+	margin: 10px;
+	width: 400px;
+	height:300px;
+}
+
+#webLinks {
+	color: #D46A6A;
+}
+
+body {
+	background-color: blue;
+}
+
+h1 {
+	color: yellow;
+	text-align: center;
+	border: solid black 10px;
+	border-radius: 20px;
+	background-color: grey;
+	padding: 10px;
+}
+
+.gameWrapper {
+	width: 80%;
+	border: solid black 10px;
+	border-radius: 20px;
+	background-color: grey;
+	padding: 20px;
+}
+
+.gameWrapper button {
+	display: block;
+	margin: auto;
+
+}
+.containerNew {
+	background-color: pink;
+}
