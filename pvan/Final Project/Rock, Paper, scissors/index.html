@@ -1,0 +1,40 @@
+<!DOCTYPE <html>
+<head>
+	<title>Rock Paper Scissors Game</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+	<div class = "theTitle">
+		<h1>Rock, Paper, Scissors Game</h1>
+	</div>
+
+	<div class="container" >
+
+     <div class="row">
+	  <div class="col-xs-12">
+			<div class="col-xs-4 col-sm-4 co-md-4">
+				<button id="rock" onClick="playerRock()"><img src="http://newsdesk.si.edu/sites/default/files/imagecache/snapshot_image/PlymouthRockPiece.jpg" alt="Rock"></button>
+			</div>
+
+			<div class="col-xs-4 col-sm-4 co-md-4">
+				<button id="paper" onClick="playerPaper()"><img src="http://images.clipartpanda.com/notebook-clipart-yikLGbriE.svg" alt="Paper"></button>
+			</div>
+
+			<div class="col-xs-4 col-sm-4 co-md-4">
+				<button id="scissors" onClick="playerScissors()"><img src="http://img1.wikia.nocookie.net/__cb20120407173946/mlp/images/4/4f/PonyMaker_Scissors.png" alt="Scissors"></button>
+			</div>
+	</div>
+	 </div>
+	  </div>
+	<div class="score">
+	  <p>Your score:</p>
+	  <h1 id="P_SCORE"></h1>
+	  <a href="../index.html">Home</a>
+	</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

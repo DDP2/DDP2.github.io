@@ -1,0 +1,56 @@
+h1 {
+	text-align: center;
+}
+
+.webhead {
+	text-align: center;
+}
+
+#menu li a{
+	border: solid black 9px;
+	text-decoration: none;
+	display: block;
+	color: #BEB4A2;
+	background-color: #1D232E;
+	text-align: center;
+	width: 160px;
+	border-radius: 11px; 
+}
+#menu {
+	text-align: center;
+	font-size: 50px;
+}
+
+ #menu li {
+ 	display: inline-block;
+ 	margin-right: -10px;
+ 	margin-left: -10px;
+}
+
+#menu li a:hover {
+	background-color: #6C737D;
+}
+
+body {
+    background-color: #b0c4de;
+}
+
+img {
+	width: 400px;
+	height: 300px;
+	border: solid black 9px;
+	margin-left: 70px;
+}
+
+#imgWrapper {
+	border: solid black 9px;
+	background-color: #131925;
+	height: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+b {
+	font-size: 25px;
+}
