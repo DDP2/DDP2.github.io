@@ -1,0 +1,81 @@
+body{
+	background-color: #957E7E;
+	
+}
+
+@font-face {
+  font-family: 'Cash Currency';
+  src: url('http://www.fontsaddict.com/fontface/cash-currency.ttf');
+}
+
+#p{
+	font-size: 20px;
+	color: gray;
+	margin: 15px;
+}
+
+.text-center{
+	color: black;
+	margin-bottom: 25px;
+	font-family: Cash Currency;
+	margin-top: 10px; 
+}
+
+
+.item{
+	width:1000px;
+	height: 150px;
+	margin-left: 140px;
+}
+
+.gameWrapper{
+	background-color: #DDC5C5;
+	text-align: center;
+}
+
+.picTures{
+	width: 200px;
+	height: 150px;
+	border: solid black 5px;
+	margin: 10px;
+	display: inline-block;
+}
+
+#theResult{
+	text-align: center;
+	font-weight: bold;
+	color: black;
+	margin-top: 20px;
+	font-family: Cash Currency;
+	font-size: 20px;
+}
+
+.pics{
+	width: 200px;
+	height: 150px;
+	border: solid black 5px;
+
+	
+}
+
+.pix{
+	width: 200px;
+	height: 150px;
+	float: right;
+	border: solid black 5px;
+	position: absolute;
+	top: 60px;
+	right: 5px;
+}
+
+#hl{
+	
+	font-family: Cash Currency;
+	color: black;
+}
+
+#hr{
+	float: right;
+	font-family: Cash Currency;
+	color: black;
+}
