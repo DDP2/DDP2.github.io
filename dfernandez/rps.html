@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Rock Paper Scissors Game</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+
+          <div class="page-header">
+            <h1>My Game</h1>
+          </div>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="Journal.html">Journal</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="rps.html">Game</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+      <p class="text-center"><a class="btn btn-primary btn-lg" href="rules.html" role="button">How to Play</a></p>
+      
+      <div class="col-sd-4 col-md-4 col-xs-4">
+        <h2>Wins</h2>
+        <div id="win"></div>
+      </div>
+
+      <div class="col-sd-4 col-md-4 col-xs-4">
+        <h2>Ties</h2>
+        <div id="tie"></div>
+      </div>
+
+      <div class="col-sd-4 col-md-4 col-xs-4">
+        <h2>Loses</h2>
+        <div id="loss"></div>
+      </div>          
+
+      <div class="row">
+      
+        <div class="col-sd-6 col-md-6 col-xs-6">
+          <img class="img-responsive" id="player" src="Pictures/pick.jpg">
+        </div>
+        <div class="col-sd-6 col-md-6 col-xs-6">
+          <img class="img-responsive" id="pc" src="Pictures/pick.jpg">
+        </div>
+        
+      </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <button id="rock" onClick="playerRock(); evaluateCvP()">
+            <img class="img-responsive" src="Pictures/dwaynejohnson.jpg">
+          </button>
+        </div>
+
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <button id="paper" onClick="playerPaper(); evaluateCvP()">
+            <img class="img-responsive" src="Pictures/money.jpg">
+          </button>
+        </div>
+        
+        <div class="col-xs-4 col-sm-4 col-md-4">
+          <button id="sciossors" onClick="playerScissors(); evaluateCvP()">
+            <img class="img-responsive" src="Pictures/edward.jpg">
+          </button>
+        </div>
+
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scriptsrps.js"></script>
+  </body>
+</html>
