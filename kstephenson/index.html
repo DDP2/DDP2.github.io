@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		
+		<title>Water-Earth-Fire-Air</title>
+		<link rel="stylesheet" type="text/css" href="css/1style.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	</head>
+
+	<body> 
+
+      	<div class = "navbar navbar-inverse navbar-static-top">
+        	<div class = "container">
+
+          		<a href="homeindex.html" class = "navbar-brand">FHS DDCC INC.</a>
+
+          		<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+           		 <span class = "icon-bar"></span>
+           		 <span class = "icon-bar"></span>
+           		 <span class = "icon-bar"></span>
+        	 	 </button>
+
+
+         		 <div class = "collapse navbar-collapse navHeaderCollapse">
+
+        		    <ul class = "nav navbar-nav navbar-right">
+
+      	 	   		  <li><a href="index.html">Water, Earth, Fire, Air</a></li>
+      	  	   		  <li><a href="webjournal.html">Web Journal</a></li>
+              
+     	     	  	</ul>
+     	     	 </div>
+
+          	</div>
+
+        </div>	
+
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12">
+					<h1 class="text-center">Can you master the elements?</h1>
+				</div>
+			</div>	
+		</div>
+
+		<video style="position: fixed; z-index: -99; width: 100%; height: 100%" controls loop autoplay>
+ 				 <source src="Avatar the Last Airbender Opening HD.mp4" type="video/mp4">
+		</video>
+		
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<h2>Wins</h2>
+					<div id="win"></div>
+				</div>
+
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<h2>Ties</h2>
+					<div id="tie"></div>
+				</div>
+
+				<div class="col-sd-4 col-md-4 col-xs-4">
+					<h2>Loses</h2>
+					<div id="loss"></div>
+				</div>
+
+				<div class="row">
+			
+					<div class="col-sd-6 col-md-6 col-xs-6">
+						<img class="pictures img-responsive" id="player" src="pictures/elements.jpg">
+					</div>
+					<div class="col-sd-6 col-md-6 col-xs-6">
+						<img class="pictures img-responsive" id="pc" src="pictures/elements.jpg">
+					</div>
+				
+				</div>
+
+			</div>
+		</div>
+		
+		<div class="container">	
+
+			<div class="row">				
+				<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="h2">
+							<button id="Water" onClick="playerWater(); evaluateCvP()">
+								<img class="pictures img-responsive" src="pictures/water.png">
+							</button>
+						</div>
+				</div>		
+
+				<div class="col-xs-3 col-sm-3 col-md-3">	
+						<div class="h2">
+							<button id="Earth" onClick="playerEarth(); evaluateCvP()">
+								<img class="pictures img-responsive" src="pictures/earth.png">
+							</button>
+						</div>
+				</div>
+
+				<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="h3">
+							<button id="Fire" onClick="playerFire(); evaluateCvP()">
+								<img class="pictures img-responsive" src="pictures/fire.png">
+							</button>
+						</div>
+				</div>
+			
+				<div class="col-xs-3 col-sm-3 col-md-3">
+						<div class="h3">
+							<button id="Air" onClick="playerAir(); evaluateCvP()">
+								<img class="pictures img-responsive" src="pictures/air.png">
+							</button>
+						</div>
+				</div>
+			</div>	
+		</div>	
+			
+
+
+		<script src="js/javascript.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+    	<script src="js/scripts.js"></script>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+	</body>
+
+</html>
