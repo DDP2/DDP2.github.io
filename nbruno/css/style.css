@@ -1,0 +1,16 @@
+body {
+    
+   cursor: url("http://media1.giphy.com/media/QUOs7hGpn6PS/giphy.gif"), auto;
+}
+li a {
+    color: black;
+}
+.menu {
+    background-color: #5bc0de;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+ margin-left: auto;
+    margin-right: auto;
+}

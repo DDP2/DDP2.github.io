@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Adventure</title>
+    
+  </head>
+  <body>
+
+
+    <h2 id="text2">Leave</h2>
+
+
+
+      <div id="navBox"> 
+        <ul id="navigation">
+          <li><a href="Index.html" class="grow">Home</a></li>
+          <li><a href="adventure.html" class="grow">Start new adventure</a></li>
+          <li><a href="About.html" class="grow">About</a></li>
+        </ul> 
+      </div>
+  
+      <p id="text1">  You step carfully back into the wet floor.  It warms your feet.</p>
+ 
+
+<input id="numb" type="number">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+    var x, text;
+
+
+    x = document.getElementById("numb").value;
+
+ 
+    if (isNaN(x) || x < 992 || x > 992) {
+        text = "Input not valid";
+    }     else {
+        text = "Input OK";
+    }
+    document.getElementById("demo").innerHTML = text;
+}
+</script>
+
+<fieldset>
+<legend>Action:</legend>
+<br>
+<form action="wooden.html" class="grow">
+<input type="submit" value="Go thorough the wooden doorway" >
+</form>
+<form action="torch.html" class="grow">
+<input type="submit" value="Take torch" >
+</form>
+<form action="doorway.html" class="grow">
+<input type="submit" value="Go thorough the bare doorway" >
+</form>
+<form action="stairs.html" class="grow">
+<input type="submit" value="Go up the stairs" >
+</fieldset>
+</form>
+      </div>
+  </body>
+</html>
