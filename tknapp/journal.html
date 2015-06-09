@@ -14,14 +14,40 @@
 			<h1>journal</h1>
 		</header>
 		
-		<div id="menu">
-			<ul>
+		<nav class="navbar navbar-default">
+ 	 <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
 
-				<li><a href="intro.html">home</a></li>
-				<li><a href="journal.html">journal</a></li>
-				<li><a href="game.html">game</a></li>
-		</div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="index.html">Home </a></li>
+        <li class="active"><a href="journal.html">Journal <span class="sr-only">(current)</span></a></li>
+        <li><a href="game.html">Game</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="game.html">Game</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
+		<div class="container">
+		<div class="row">
 		<div class="journalWrapper">
 			<h2 id="journalTitle">Tayler's daily journal</h2>
 		</div>
@@ -42,6 +68,7 @@
 			<h5>The summary of the day</h5>
 			<p>So today im finally getting to do my journal entrys cause i was so far behind. I still have so far to gooooooooooooooooo.</p>
 		</div>
+		
 		<div class="journalWrapper">
 		<h3>Monday March 2nd 2015</h3>
 			<h4>Here are the main ideas:</h4>
@@ -452,6 +479,8 @@
 			<p>projects</p>
 		</div>
 
+		</div>
+		</div>
 		<div id="credits">
 			<p>Created by: Tayler Knapp</p></div>
 	</body>

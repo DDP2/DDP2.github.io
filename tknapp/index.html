@@ -13,28 +13,78 @@
 		<header id="topBanner">
 			<h1>Digital design</h1>
 		</header>
-		
-		<div id="menu">
-			<ul>
-				<li><a href="index.html">home</a></li>
-				<li><a href="journal.html">journal</a></li>
-				<li><a href="game.html">game</a></li>
-			</ul>
-		</div>
+
+
+		<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Brand</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="journal.html">Journal</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="journal.html">Journal</a></li>
+            <li><a href="game.html">Game</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+<div class="container">
+		<div class="row">
+      <div class="col-xs-12 journalWrapper">
+       
 				<h2> A little about me...</h2>
 			<p>Quando noster ex nec, eos ignota nemore cu. Ex vix laoreet conceptam, porro singulis assueverit ei cum. Mea eius definitiones ut. Ne soleat quodsi mentitum vis, te his tota periculis mediocritatem.
 
            Nec te lobortis accusamus, est id esse vidit velit. Cu duo persius discere, nam te voluptaria inciderint. At oratio sanctus lucilius eum, his euismod inimicus similique at. Ius in nemore blandit, omnes dolorum recusabo et sea.</p>
+        </div>
+      
+    </div>
 
-	<div id="images">
-		<div class="smallImage" id="imageOne"><img src="https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg" alt="kitty"></div>
-		<div class="smallImage" id="imageTwo"><img src="https://www.petfinder.com/wp-content/uploads/2012/11/122163343-conditioning-dog-loud-noises-632x475.jpg" alt="scaredpup"></div>
-		<div class="smallImage" id="imageThree"><img src="http://img4.ask.fm/assets/281/892/550/normal/img_0448.jpg" alt="me?">
-		</div>
+
+    <div class="row">
+      <div class="col-xs-12 journalWrapper">
+        
+	       <div id="images">
+		      <div class="smallImage col-xs-12 col-sm-4" id="imageOne">
+            <img class="img-responsive" src="https://pbs.twimg.com/profile_images/378800000532546226/dbe5f0727b69487016ffd67a6689e75a.jpeg" alt="kitty">
+          </div>
+		      <div class="smallImage col-xs-12 col-sm-4" id="imageTwo">
+            <img class="img-responsive" src="https://www.petfinder.com/wp-content/uploads/2012/11/122163343-conditioning-dog-loud-noises-632x475.jpg" alt="scaredpup">
+          </div>
+		      <div class="smallImage col-xs-12 col-sm-4" id="imageThree">
+            <img class="img-responsive" src="http://img4.ask.fm/assets/281/892/550/normal/img_0448.jpg" alt="me?">
+		      </div>
+        </div>
+     
+    </div>
+
+  </div>
 
 		<br></br>
 	
-		<h1>dog form</h1>
+    <div class="container">
+      <div class="row">
+		    <div class="col-xs-12 journalWrapper">
+
+          <h1>dog form</h1>
 
         <form name="practiceForm" action="action">
 
@@ -60,14 +110,18 @@
                       <input type="submit" name="submit" value="Submit"class="btn btn-default"></input>
                 </div>
               </div>
+            </div>
+          </div>
 
 
         </form>
 
         <p id="displayText"></p>
 
-
-		<script href="js/bootstrap.min.js"></script>
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+		<script src="js/bootstrap.min.js"></script>
 		<script src="js/formscripts.js"></script>
 
 	</body>

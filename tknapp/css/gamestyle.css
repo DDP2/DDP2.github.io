@@ -1,12 +1,12 @@
 body{
-	background-color: black;
+	background-color: #0D5D96;
 }
 #title {
 	border-radius: 5px;
 	text-align: center;
 	color: black;
 	border: solid black 5px;
-	background-color: blue;
+	background-color: #DC0527;
 }
 
 #menu ul {
