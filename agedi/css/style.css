@@ -1,0 +1,52 @@
+#header	{
+	border: solid black 5px;
+	text-align: center;
+	background-color: #549454;
+	border-radius: 20px;
+}
+
+#title  {
+	text-align: center;
+
+}
+
+
+body {
+	background-color: #54914E;
+}
+
+
+#Review	{
+	border: solid #1F631F 5px;
+	background-color: #7CB17C;
+	border-radius: 15px;
+	padding: 20px;
+	display: block;
+}
+.Games	{
+	text-align: center;
+}
+
+.gamerow	{
+	text-align: center;
+}
+#journalWrapper	{
+	border: solid #1F631F 5px;
+	background-color: #7CB17C;
+	border-radius: 20px;
+	padding: 15px;
+
+}
+
+#journalTitle	{
+	text-align: center;
+	border: solid #1F631F 5px;
+	padding: 30px;
+	background-color: #7CB17C;
+	font-size: 30px;
+	border-radius: 20px;
+}
+.carousel-inner img {
+  margin: auto;
+  max-height: 250px;
+}

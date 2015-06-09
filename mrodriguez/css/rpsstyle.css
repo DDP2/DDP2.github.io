@@ -1,0 +1,70 @@
+body {
+	background-color: white;
+}
+
+#openPart {
+	color: #AFC777;
+	text-align: center;
+	border: solid black 9px;
+	border-radius: 15px;
+	background-color: #528A7C;
+	padding: 10px;
+}
+
+img {
+	height: auto;
+	width: auto;
+	background-color: #528A7C;
+}	
+
+button {
+	background-color: #528A7C;
+	height: 105px;
+	width: 105px;
+	margin-top: 50px;
+	margin-left: 50px
+}
+
+.top-buffer { 
+	margin-top:20px;
+	margin-left: 80px;
+
+ }
+
+ #theResult {
+ 	margin-right: 60px;
+ 	border: solid white 7px;
+ 	border-radius: 12px;
+ 	background-color: #528A7C;
+ 	width: 90px;
+ }
+
+ #menu ul {
+	margin: 0;
+	list-style: none; 
+	padding: 0;
+}
+#menu {
+	margin-top: 10px;
+	width: 258px;
+	height: 35px;
+	border: solid black 4px;
+	border-radius: 5px;
+	margin-left: 100px;
+}	
+
+
+#menu a {
+	color: #BEB4A2;
+	display: block;
+	width: 60px;
+	border: solid black 5px;
+	background-color: #1D232E;
+	text-align: center;
+	text-decoration: none;
+}
+
+#menu li {
+	float: left;
+	width: 55px;
+}

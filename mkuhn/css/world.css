@@ -1,0 +1,66 @@
+body{
+	background-color: #46B7C7;
+}
+
+.mainHeading{
+text-align: center;
+margin: auto;
+border: solid black 5px;
+border-radius: 25px;
+background-color: #665091;
+}
+
+#navigation li a{
+text-decoration: none;
+border: solid black 3px;
+border-radius: 25px;
+text-align: center;
+color: black;
+padding-left: 100px;
+padding-right: 100px;
+background-color: #665091;
+font-size: 30px;
+}
+
+#navigation li{
+display: inline;
+
+}
+ 
+#navigation{
+list-style: none;
+text-align: center;
+}
+
+#navigation a:hover{
+color: #8853EE;
+background-color: #665091;
+}
+
+.pics {
+  margin: 0 auto;
+  width: 250px;
+  height: 150px;
+  padding: 1px;
+  border: 1px solid black;
+  display: inline-block;
+
+}
+#pretty{
+	margin: 0 auto;
+  width: 200px;
+  height: 250px;
+  padding: 1px;
+  border: 1px solid black;
+  display: inline-block;
+
+}
+.checkbox{
+  padding-left: 60px;
+  font-size: 20px;
+}
+
+#result {
+  font-size: 20px;
+}
+

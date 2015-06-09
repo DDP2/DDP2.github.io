@@ -1,0 +1,82 @@
+@font-face {
+  font-family: 'the bubble letters';
+  src: url('http://www.fontsaddict.com/fontface/the-bubble-letters.ttf');
+}
+
+body{
+	background-color: #837272;
+}
+
+#p{
+	font-size: 20px;
+	color: gray;
+	margin: 15px;
+}
+
+#heading{
+	font-family: the bubble letters;
+	color: white;
+	text-align: center;
+	border: solid black 4px;
+	border-radius: 25px;
+	margin: 25px;
+}
+
+.pan{
+	height:150px;
+	width: 200px;
+	margin: 5px;
+}
+
+.bs-example{
+	margin-top: 50px;
+}
+
+#collapseOne{
+	background-color: #1D1A1A;
+}
+
+#collapseTwo{
+	background-color: #1D1A1A;
+}
+
+#collapseThree{
+	background-color: #1D1A1A;
+}
+
+.par{
+	text-align: center;
+	font-weight: bold;
+	color: white;
+}
+
+.panel-title{
+	text-align: center;
+	font-family: the bubble letters;
+}
+#head{
+	text-align: center;
+	font-family: the bubble letters;
+	color: white;
+	padding-top: 50px;
+}
+
+.header{
+	text-align: center;
+}
+.form-group{
+	text-align: center;
+}
+
+.checkbox{
+	text-align: center;
+}
+
+#sub{
+	text-align: center;
+}
+
+#result{
+	text-align: center;
+	padding-top: 10px;
+}

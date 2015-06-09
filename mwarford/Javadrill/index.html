@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Final Project Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+   	
+  <div class="container">
+
+    <div class="row">
+      <div class="col-xs-12">
+        <h1 class="text-center">Rock Paper Scissors</h1>
+      </div>
+    </div>
+
+<nav class="navbar navbar-default" id="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Navigation</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Menu <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="../index.html">About Author</a></li>
+            <li><a href="../information.html">Web Journal</a></li>
+            <li><a href="Javadrill/index.html">Rock, Paper, Scissors</a></li>
+          </ul>
+        </li>
+      </ul>
+        <button onclick="window.location.href='https://scratch.mit.edu/projects/37873170/'" class="btn btn-default">Scratch</button>
+    </div>
+  </div>
+</nav>
+
+	<h2 id="paraEntry">Choose Your Weapon</h2>
+
+<div class="row">
+ 
+  <div class="col-xs-6 col-md-4">
+		<img src="https://s-media-cache-ak0.pinimg.com/736x/06/37/97/063797aa6e8821c7883c8ff8f938f093.jpg" alt="paper" id="paper" class="userBox" onClick="playerPaper()">
+  </div>
+   <div class="col-xs-6 col-md-4">
+    <img src="https://s-media-cache-ak0.pinimg.com/originals/9f/f8/4b/9ff84bd3d569117b3c1d49d363239dc4.jpg" alt = "rock" id="rock" class="userBox" onClick="playerRock()">
+  </div>
+  <div class="col-xs-6 col-md-4">
+		<img src="https://www.scanlansarts.com/items_images/131400259210%20inch%20tailors%20shears%20scissors%20300.jpg" alt="scissors" id="scissors" class="userBox" onClick="playerScissors()">
+  </div>
+</div>
+ <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="../js/bootstrap.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+

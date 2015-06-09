@@ -1,0 +1,100 @@
+body{
+	background-color: #46B7C7;
+}
+
+.mainHeading{
+text-align: center;
+margin: auto;
+border: solid black 5px;
+background-color: #389AE5;
+font-size: 20px;
+}
+
+#navigation li a{
+text-decoration: none;
+border: solid black 3px;
+text-align: center;
+color: black;
+padding-left: 100px;
+padding-right: 100px;
+background-color: #226666;
+font-size: 30px;
+}
+
+#navigation li{
+display: inline;
+}
+
+ 
+#navigation{
+list-style: none;
+text-align: center;
+}
+
+#navigation a:hover{
+color: #226666;
+background-color:#389AE5;;
+}
+
+#container{
+background-color: #65B593;
+text-align: center;
+margin: auto;
+border: solid black 5px;
+width: 80%;
+padding-top: 40px;
+padding-bottom: 50px;
+
+}
+.picTures{
+height: 200px;
+width: 300px;
+border: solid black 2px;
+display: inline-block;
+}
+#headIng{
+text-align: center;
+font-size: 15px
+}
+#paragraph{
+text-align: center;
+border-spacing: 15px;
+background-color: #5D84A2;
+}
+.pic{
+height: 400px;
+width: 450px;
+display: block;
+margin: 0 auto;
+border: solid black 2px;
+}
+
+#list{
+text-align: center;
+width: 170px;
+margin: 0 auto;
+        
+}
+
+
+.Journal {
+text-align: center;
+margin: auto;
+border: solid black 2px;
+background-color: #226666;
+font-size: 18px;
+background-color: #46B7C7;
+
+}
+
+.h4{
+	text-align: right;
+}
+
+
+
+
+
+
+
+
