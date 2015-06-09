@@ -5,11 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Sam's Website!</title>
+    <title>Sam's Website</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/style.css">
+
 
   </head>
   <body>
@@ -38,63 +39,41 @@
     </div>
   </div>
 </nav>
-    
-    <div class="container">
-      <div class="row">
-        <div class="col 12">
-          <h1>Welcome to Sam's Website!</h1>
-    </div>
-      </div>
-        </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4 col-sm-4 col-md-4">
+    <h2>A Little Bit About Me</h2>
+      <p>Sam Cordaro, the creator of this website, currently lives in Portland, Oregon with his family. He enjoys playing videogames, running, building computers, and hanging out with his friends.  This is his first year coding in html and CSS, but he hopes to continue and create more advanced sites in the future.</p>
 
-        <img class="img-responsive" src="http://www.miqel.com/images_1/fractal_math_patterns/3-dimensional-fractal/romanesco_fractal_analog.jpg">
-        
-        </div>
-        <div class="col-xs-4"></div>
-      </div>
+      <p>I have a very poor eye for design, so there wasn't really a theme or look I was going for on my site.  I just tried to lay it out as simply as possible, so that the website would be easy to navigate.</p>
 
-      <div class="row">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4 col-sm-4 col-md-4">
+    <h2>Quick Form</h2>
 
-        <img class="img-responsive" src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzQbwtAVcXcnIyniBej9_yyfrSo55r7SAlcF9lmoMNUtXMQcVXmQ">
-        
-        </div>
-        <div class="col-xs-4"></div>
-      </div>
+    <h3>What is your first name?</h3>
 
-      <div class="row">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4 col-sm-4 col-md-4">
+    <form name="nameForm" action="action">
 
-        <img class="img-responsive" src="http://www.bhmpics.com/download/fractal_gold_mosaic-wide.jpg">
-        
-        </div>
-        <div class="col-xs-4"></div>
-      </div>
+      <input name="firstName" type="text">
 
-      <div class="row">
-        <div class="col-xs-4"></div>
-        <div class="col-xs-4 col-sm-4 col-md-4">
-
-        <img class="img-responsive" src="http://www.quantumenterprises.co.uk/fractals/fractalimages/tribal640.jpg">
-        
-        </div>
-        <div class="col-xs-4"></div>
-      </div>
-    
-
-    </div>
-
-    
-
+      
 
   
+
+    <h3>What is your last name?</h3>
+
+    
+
+      <input name="lastName" type="text">
+
+      <input name="submit" type="submit" value="submit">
+
+    </form>
+
+    <div id="result">
+
+    </div>
+
+  <script src="scripts\form.js"></script>
+
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
